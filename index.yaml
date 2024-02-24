@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   mgr-cluster:
   - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2024-02-24T11:32:53.76980161Z"
+    description: MySQL InnoDB Cluster Helm Chart for deploying MySQL InnoDB Cluster
+      in Kubernetes
+    digest: b04eb40f174fad65fe08e266dad09014c489e34878c3c39f8b592959cc96d1cf
+    name: mgr-cluster
+    urls:
+    - https://github.com/go-cinch/mysql-mgr/releases/download/mgr-cluster-1.0.1/mgr-cluster-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     appVersion: 1.0.0
     created: "2024-02-23T10:31:13.450111484Z"
     description: MySQL InnoDB Cluster Helm Chart for deploying MySQL InnoDB Cluster
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/go-cinch/mysql-mgr/releases/download/mgr-cluster-1.0.0/mgr-cluster-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-23T10:31:13.450121703Z"
+generated: "2024-02-24T11:32:53.769813773Z"
