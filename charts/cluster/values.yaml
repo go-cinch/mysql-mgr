@@ -124,16 +124,15 @@ baseServerId: 1000
 #podAnnotations:
 #podLabels:
 
-#serverConfig:
-#  mycnf: |
-#    [mysqld]
-#    core_file
-#    local_infile=off
+serverConfig:
+  mycnf: |
+    [mysqld]
+    skip_name_resolve
 
 
 datadirVolumeClaimTemplate:
   storageClassName: "mgr-cluster-sc"
-  accessModes: ["ReadWriteOnce"]
+  accessModes: "ReadWriteOnce"
   resources:
     requests:
       storage: 20Gi
