@@ -1,4 +1,6 @@
 image:
+  # https://github.com/mysql/mysql-operator/blob/8.0.36-2.0.13/helm/mysql-operator/crds/crd.yaml#L47
+  repository: "container-registry.oracle.com/mysql"
   pullPolicy: IfNotPresent
   pullSecrets:
     enabled: false
